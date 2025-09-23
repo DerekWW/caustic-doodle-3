@@ -4,31 +4,30 @@ A basic React project built with Vite.
 
 ## Prerequisites
 
-- Node.js 18+ (developed and tested with Node 20)
-- npm (comes with Node.js)
+- Bun 1.0+ (developed and tested with Bun 1.2.22)
 
 ## Getting Started
 
 1. **Install dependencies:**
    ```bash
-   npm install
+   bun install
    ```
 
 2. **Start the development server:**
    ```bash
-   npm run dev
+   bun run dev
    ```
    Open [http://localhost:5173](http://localhost:5173) in your browser to view the app.
 
 3. **Build for production:**
    ```bash
-   npm run build
+   bun run build
    ```
    The built files will be in the `dist` directory.
 
 4. **Preview the production build:**
    ```bash
-   npm run preview
+   bun run preview
    ```
 
 ## Project Structure
@@ -43,7 +42,8 @@ cautious-doodle/
 │   └── index.css          # Global styles
 ├── index.html             # HTML template
 ├── vite.config.js         # Vite configuration
-└── package.json           # Project dependencies and scripts
+├── package.json           # Project dependencies and scripts
+└── bun.lock               # Bun lockfile
 ```
 
 ## Features
@@ -56,6 +56,6 @@ cautious-doodle/
 
 ## Available Scripts
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build locally
+- `bun run dev` - Start development server
+- `bun run build` - Build for production
+- `bun run preview` - Preview production build locally
